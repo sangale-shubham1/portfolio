@@ -39,7 +39,9 @@ nav{
     flex-wrap: wrap;
 }
 .logo{
-    width: 150px;
+    width: 250px;
+    background-color: red;
+
 }
 nav ul li{
     display: inline-block;
