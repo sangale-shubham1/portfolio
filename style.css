@@ -8,8 +8,11 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background-color: #080808;
+  
     color: #fff;
+}
+.all{
+    background-color: #080808;
 }
 #header {
     width: 100%;
@@ -21,7 +24,7 @@ body{
     /* background: #000000;  */
      /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #434343, #000000) !important;  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #434343, #000000) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #000000,#434343) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     /* background-position: center ; */
 }
@@ -342,7 +345,7 @@ nav .fas{
         display: block;
     }
     #header-text{
-        margin-top: 60%;
+        margin-top: 30%;
         font-size: 16px;
     }
     #header-text h1{
